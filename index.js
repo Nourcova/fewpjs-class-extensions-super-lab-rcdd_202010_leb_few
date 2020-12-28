@@ -19,13 +19,21 @@ class Deciduous extends Tree{
   }
 }
 
+<<<<<<< HEAD
 class Evergreen extends Tree{
+=======
+class Evergreen{
+>>>>>>> 806fc398d02b17bbb62b0b9bca465d073541cea3
   constructor(species, name){
     super(species);
     this.name=name;
   }
   
   static definition(){
+<<<<<<< HEAD
     return (super.definition() + " Evergreens keep their leaves all year round.")
+=======
+    return (super.definition) + " Evergreens keep their leaves all year round."
+>>>>>>> 806fc398d02b17bbb62b0b9bca465d073541cea3
   }
 }
